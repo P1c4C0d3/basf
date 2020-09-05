@@ -1,10 +1,14 @@
-# basf
-Software Developer Test
+# basf_test
+This respository is ment for BASF candidate tests
+
+# Senior Web Developer Test
+![BASF](./statics/basf.png?raw=true "Logo" )
+
 Software Developer Test v1.0
 
-Objective: Develop a small web application that would support a Virtual Assistant (a.k.a. Chatbot) to emulate a standard Service Desk attention; you will need to implement only the Frontend application based on any web technology and framework that you already know or used in the past; the backend part is mainly supported by APIs already implemented in two REST Services already available.
+__Objective:__ : Develop a small web application that would support a Virtual Assistant (a.k.a. Chatbot) to emulate a standard Service Desk attention; you will need to implement only the Frontend application based on any web technology and framework that you already know or used in the past; the backend part is mainly supported by APIs already implemented in two REST Services already available.
 
-Solution: Implement one-page application that has a button or image that opens a modal window or any other html object that gives the user the functionality of interacting with a Chatbot. Please use the following image as a guide of the application to be implemented.
+__Solution:__ : Implement one-page application that has a button or image that opens a modal window or any other html object that gives the user the functionality of interacting with a Chatbot. Please use the following image as a guide of the application to be implemented.
 
  
 User interface Vitual Assistant Example
