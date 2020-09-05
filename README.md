@@ -32,7 +32,7 @@ Tips:
  
 
 Expected delivery and times: You can deploy the solution in any cloud provider using a free user account (this is a plus) or send the application and clear instructions on how to install it (including pre requisites) that would run locally the application in any personal computer that meets the pre reqs provided.
-Finally, it is required to push your code to github in the following public project: https://github.com/P1c4C0d3/basf_swd_test for that you will need to provide your github user to be authorized to push the code.
+Finally, it is required to push your code to github in the following public project: https://github.com/P1c4C0d3/basf for that you will need to provide your github user to be authorized to push the code.
 There is no limit time to finish this test, but only the ones that finish the tests are considered to continue with the selection process.
 
 If you have any doubt regarding during the test, please send an email to:
