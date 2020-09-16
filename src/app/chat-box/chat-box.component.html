@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style> 
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+  </style>
+
+<div class="w3-container w3-blue">
+  <h2>Assistant Preview</h2>
+</div>
+
+<div #scrollMe class="chat">
+<div *ngFor= "let msg of messageList">
+
+    <div *ngIf= "msg.user==UserType.Bot" class="container">
+        <p>{{msg.text}}</p>
+    </div>
+      
+    <div *ngIf= "msg.user==UserType.User" class="container darker">
+        <p>{{msg.text}}</p>
+    </div>
+</div>
+</div>
+    
+  <div class="container white">
+      <input [(ngModel)]="message" type="text" (keyup)="handleKeyUp($event)"  >
+    <button class="button1" [disabled]="!message" (click)="sendLogic()" (keyup.enter)="sendLogic()"> SEND </button>
+  </div>
+
+
+  
