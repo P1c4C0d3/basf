@@ -56,6 +56,17 @@ export class ChatBoxComponent implements OnInit {
     })
   }
 
+  public sendLogicOption(text: string){
+    let userMessage = new Message();
+    userMessage.text= text;
+    userMessage.user= UserType.User;
+    this.addMessageToList(userMessage);
+    this.message = "";
+    this.service.sendInput(this.session, userMessage.text).subscribe(answer => {
+    this.addMessageToList(answer);
+  })
+}
+
   handleKeyUp(e){
     if(e.keyCode === 13){
        this.sendLogic();

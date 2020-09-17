@@ -1,3 +1,5 @@
+div#frm *{display:inline}
+
 /* Chat containers */
 .container {
     border: 2px solid #dedede;

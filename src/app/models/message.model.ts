@@ -4,4 +4,5 @@ export class Message {
 
     public text: string;
     public user: UserType; 
+    public options: Array<string>;
 }

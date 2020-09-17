@@ -34,8 +34,17 @@ export class ChatService {
       "Authorization": "Basic "+ btoa("apikey:efIGSPM2egVLwidwUGAqJaMafdj3fbkAhdcZ9z8Cg-Fc")
     })}).pipe(map((data: any) => {
       let msg = new Message();
+      msg.options = new Array<string>();
       msg.user = UserType.Bot;
       msg.text = data.output.generic[0].text;
+      if (data.output.generic[1]==null){
+          console.log("entró aquí.")
+      }else{
+        data.output.generic[1].options.forEach(e => {
+          console.log(e.label);
+          msg.options.push(e.label);
+        });
+      }
       return msg;
     }));
   }

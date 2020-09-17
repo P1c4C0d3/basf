@@ -20,6 +20,13 @@
 
     <div *ngIf= "msg.user==UserType.Bot" class="container">
         <p>{{msg.text}}</p>
+        <div id="frm">
+        <div *ngIf= "msg.options.length>0" class="container">
+          <div *ngFor= "let option of msg.options">
+            <button (click)="sendLogicOption(option)">{{option}}</button>
+          </div>
+        </div>
+      </div>
     </div>
       
     <div *ngIf= "msg.user==UserType.User" class="container darker">
