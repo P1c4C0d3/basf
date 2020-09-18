@@ -38,10 +38,8 @@ export class ChatService {
       msg.user = UserType.Bot;
       msg.text = data.output.generic[0].text;
       if (data.output.generic[1]==null){
-          console.log("entró aquí.")
       }else{
         data.output.generic[1].options.forEach(e => {
-          console.log(e.label);
           msg.options.push(e.label);
         });
       }
