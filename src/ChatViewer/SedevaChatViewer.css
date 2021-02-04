@@ -1,0 +1,58 @@
+.row-modal-body {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.row-text-viewer {
+    height: 370px;
+    overflow: auto;
+    border-bottom: 1px ridge;
+}
+
+.row-input-group{
+    padding-top: 16px;
+}
+
+.chat-alert{
+    margin-bottom: 0px;
+}
+
+.div-chat-alert{
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.right{
+    margin-left: 19%;
+}
+
+.span-time-stamp{
+    color: #adb5bd;
+    font-size: small;
+    margin-left: 2%;
+}
+
+.span-pull-right{
+    margin-left: 78%;
+}
+
+.btn-outline-secondary{
+    background-color: #21a0d2;
+    color: floralwhite;
+}
+
+.modal-header{
+    background-color: #21a0d2;
+    color: floralwhite;
+}
+
+.alert-primary{
+    color: #000000;
+    background-color: #21a0d282;
+    border-color: #21a0d282;
+}
+
+.alert-secondary{
+    color: #000000;
+}
