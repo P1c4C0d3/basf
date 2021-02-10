@@ -1,0 +1,30 @@
+.div-chat-alert{
+    margin-bottom: 10px;
+    width: 80%;
+}
+.right{
+    margin-left: 19%;
+}
+
+.span-time-stamp{
+    color: #adb5bd;
+    font-size: small;
+    margin-left: 2%;
+}
+
+.span-pull-right{
+    margin-left: 78%;
+}
+
+.chat-alert{
+    margin-bottom: 0px;
+}
+
+.div-response-options{
+    margin-top: 10px;
+    padding-left: 10%;
+}
+
+.option-button {
+    margin-right: 10px;
+}
